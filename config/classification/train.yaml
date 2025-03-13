@@ -1,0 +1,21 @@
+# Model configuration
+defaults:
+  - model: "conv_next"
+  - optimizer: adamw
+  - train_dataset: base_ds
+  - val_dataset: base_ds
+  - scheduler: step_lr
+
+# Training configuration
+training:
+  normalized_jsn_class_weights: [0.363, 0.624, 0.272, 0.575, 3.827]
+  normalized_erosion_class_weights: [0.012, 0.183, 0.391, 2.571, 7.714, 1.058]
+  num_workers: 0
+  epochs: 20
+  batch_size: 64
+  save_dir: "C:\\Users\\User\\PycharmProjects\\ARISE\\checkpoints\\classification"
+
+# WandB configuration
+wandb:
+  api_key: "fa23ff7a00e1182f7a1038f90febc10f05b89f9f"
+  project: "Automated_Rheumatoid_Inflammatory_Scoring_and_Evaluation"
