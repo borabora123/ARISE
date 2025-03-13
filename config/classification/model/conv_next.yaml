@@ -1,0 +1,7 @@
+_target_: classification.models.conv_next.Conv_Next
+model_name: "conv_next"
+n_output_layers: 2
+output_layers_shapes:
+  6: "erosion"
+  5: "jsn"
+pretrained: True
