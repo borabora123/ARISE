@@ -1,0 +1,4 @@
+name: yolo12n.pt
+pretrained: True
+nc: 42
+imgsz: 640
