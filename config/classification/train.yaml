@@ -17,5 +17,5 @@ training:
 
 # WandB configuration
 wandb:
-  api_key: "fa23ff7a00e1182f7a1038f90febc10f05b89f9f"
-  project: "Automated_Rheumatoid_Inflammatory_Scoring_and_Evaluation"
+  api_key: "your_wandb_key"
+  project: "Your_Project_name"
