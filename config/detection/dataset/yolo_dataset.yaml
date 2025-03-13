@@ -1,0 +1,4 @@
+path: C:/Users/User/PycharmProjects/ARISE/data/  # Path to dataset root
+train: images/train  # Training images directory
+val: images/val  # Validation images directory
+nc: 1
